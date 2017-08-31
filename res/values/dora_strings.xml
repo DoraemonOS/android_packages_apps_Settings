@@ -32,6 +32,10 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
+    <!-- DoraemonOS Settings-->
+    <string name="dora_settings_title">DoraemonOS Settings</string>
+    <string name="dora_settings_summary">Hello World</string>
+
     <!-- Categories -->
     <string name="animations_title">Animations</string>
     <string name="animations_settings_summary">Make your system transitions more awesome or horrible</string>

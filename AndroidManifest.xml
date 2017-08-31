@@ -3853,6 +3853,20 @@
                   android:exported="false"
                   android:theme="@style/SudThemeGlif.Light">
         </activity>
+		
+	<!-- DoraemonOS Settings -->
+        <activity android:name=".Settings$doraActivity"
+            android:label="@string/dora_settings_title"
+            android:icon="@drawable/ic_homepage_dora"
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.dora.settings.dora" />
+        </activity>
 
         <activity android:name=".backup.transport.TransportActivity"
                   android:label="@string/backup_transport_title"
