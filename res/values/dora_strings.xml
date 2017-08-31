@@ -39,4 +39,9 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total available RAM</string>
 
+    <!-- DoraemonOS Settings-->
+    <string name="dora_settings_title">DoraemonOS Settings</string>
+    <string name="dora_settings_summary">Hello World</string>
+
+
 </resources>

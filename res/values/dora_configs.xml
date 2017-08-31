@@ -29,4 +29,8 @@
     <!-- DoraemonOS Maintainer -->
     <string name="dora_maintainer">Device Maintainer</string>
 
+    <!-- DoraemonOS Settings-->
+    <string name="dora_settings_title">DoraemonOS Settings</string>
+    <string name="dora_settings_summary">Hello World</string>
+
 </resources>

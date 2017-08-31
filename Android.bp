@@ -44,10 +44,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
-    resource_dirs: [
-        "res",
-        "res-pixel",
+    srcs: ["src/**/*.java",
+           "dora/src/**/*.java",
+    ],
+	
+	aaptflags: ["--extra-packages com.dora.settings"],
+	
+    resource_dirs: ["res",
+                    "dora/res",
+                    "res-pixel",
     ],
 
     static_libs: [
@@ -87,6 +92,10 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
 
 platform_compat_config {
