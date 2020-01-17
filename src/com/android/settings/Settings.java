@@ -177,7 +177,7 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
-    // Cherish Settings
-    public static class CherishSettingsActivity extends SettingsActivity {}
+    // Doraemon Settings
+    public static class DoraemonSettingsActivity extends SettingsActivity {}
 
 }

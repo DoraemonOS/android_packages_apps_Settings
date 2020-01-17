@@ -70,5 +70,5 @@
 # Custom rules
 -keep class com.google.android.settings.** { *; }
 
-#Cherish
--keep class com.cherish.settings.**
+#DoraemonOS
+-keep class com.doraemon.settings.**
