@@ -25,4 +25,6 @@
     <string name="dora_version">DoraemonOS version</string>
     <string name="dora_version_default">N/A</string>
 
+    <!-- Maintainer -->
+    <string name="maintainer">Maintainer</string>
 </resources>
