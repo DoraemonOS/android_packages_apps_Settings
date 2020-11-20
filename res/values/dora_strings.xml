@@ -42,4 +42,9 @@
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Value</string>
+    <string name="seek_value_edit_label">Set value</string>
+
 </resources>
