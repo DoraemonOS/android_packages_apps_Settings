@@ -26,4 +26,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- DoraemonOS Maintainer -->
+    <string name="dora_maintainer">Device Maintainer</string>
+
 </resources>

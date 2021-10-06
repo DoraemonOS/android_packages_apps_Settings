@@ -30,7 +30,6 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-
     <!-- DoraemonOS version -->
     <Preference
         android:key="dora_version"
@@ -38,6 +37,14 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.DoraVersionPreferenceController"/>
+
+    <!-- DoraemonOS Maintainer  -->
+    <Preference
+        android:key="dora_maintainer"
+        android:title="@string/dora_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DoraMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
