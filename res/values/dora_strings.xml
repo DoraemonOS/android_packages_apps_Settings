@@ -21,4 +21,8 @@
     <!-- DoraemonOS Build Date -->
     <string name="build_date">Build date</string>
 
+    <!-- DoraemonOS version -->
+    <string name="dora_version">DoraemonOS version</string>
+    <string name="dora_version_default">N/A</string>
+
 </resources>
