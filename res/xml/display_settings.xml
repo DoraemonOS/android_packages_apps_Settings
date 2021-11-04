@@ -82,6 +82,14 @@
             android:title="@string/screen_zoom_title"
             android:fragment="com.android.settings.display.ScreenZoomSettings"
             settings:keywords="@string/keywords_display_size"/>
+
+        <PreferenceScreen
+            android:key="monet_engine"
+            android:icon="@drawable/ic_themes"
+            android:title="@string/monet_title"
+            android:summary="@string/monet_summary"
+            android:fragment="com.dora.settings.fragments.ui.MonetSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
