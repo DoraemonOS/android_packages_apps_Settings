@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2021 AospExtended ROM Project
+<!-- Copyright (C) 2019-2021 The DoraemonOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,48 +16,45 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/monet_engine_title">
+    android:key="monet_settings"
+    android:title="@string/monet_title">
 
-    <com.dora.support.preferences.SecureSettingSwitchPreference
+    <com.dora.settings.preference.SecureSettingSwitchPreference
         android:key="monet_engine_custom_color"
         android:title="@string/monet_engine_custom_color_title"
         android:summary="@string/monet_engine_custom_color_summary"
         android:defaultValue="false" />
 
-    <com.dora.support.colorpicker.ColorPickerPreference
+    <com.dora.settings.preferences.colorpicker.SecureSettingColorPickerPreference
         android:key="monet_engine_color_override"
         android:title="@string/monet_engine_color_override_title"
         android:dependency="monet_engine_custom_color"
-        android:defaultValue="0xffffff" />
+        android:defaultValue="0xffffffff" />
 
-    <com.dora.support.preferences.SecureSettingSwitchPreference
-        android:key="monet_engine_linear_lightness"
-        android:title="@string/monet_engine_linear_lightness_title"
-        android:summary="@string/monet_engine_linear_lightness_summary"
-        android:defaultValue="false" />
-
-    <com.dora.support.preferences.SecureSettingSeekBarPreference
+    <com.dora.settings.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_white_luminance_user"
         android:title="@string/monet_engine_white_luminance_user_title"
-        android:dependency="monet_engine_linear_lightness"
         android:defaultValue="425"
         android:max="1000"
         settings:min="0"
         settings:interval="25"/>
 
-    <com.dora.support.preferences.SecureSettingSwitchPreference
+    <com.dora.settings.preference.SecureSettingSwitchPreference
         android:key="monet_engine_accurate_shades"
         android:title="@string/monet_engine_accurate_shades_title"
-        android:summary="@string/monet_engine_accurate_shades_summary"
         android:defaultValue="true" />
 
-    <com.dora.support.preferences.SecureSettingSeekBarPreference
+    <com.dora.settings.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_chroma_factor"
         android:title="@string/monet_engine_chroma_factor_title"
         android:defaultValue="100"
         android:max="400"
-        settings:min="25"
+        settings:min="50"
         settings:interval="25"/>
 
-</PreferenceScreen>
+    <com.dora.settings.preference.SecureSettingSwitchPreference
+        android:key="monet_engine_linear_lightness"
+        android:title="@string/monet_engine_linear_lightness_title"
+        android:defaultValue="false" />
 
+</PreferenceScreen>
