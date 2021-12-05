@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.dora.settings.preferences.colorpicker;
+package com.dora.settings.preference.colorpicker;
 
 import android.app.AlertDialog;
 import android.content.Context;

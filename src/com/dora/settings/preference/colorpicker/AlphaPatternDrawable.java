@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.dora.settings.preferences.colorpicker;
+package com.dora.settings.preference.colorpicker;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
