@@ -80,6 +80,7 @@ android_library {
         "lottie",
         "SettingsGoogle-lib",
         "VendorSupport-preference",
+        "powerusagefeaturegoogle",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
@@ -142,4 +143,10 @@ filegroup {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.9.0.aar"],
+}
+
+java_import {
+    name: "powerusagefeaturegoogle",
+    jars: ["libs/powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
 }
