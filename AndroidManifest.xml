@@ -3855,7 +3855,7 @@
         </activity>
 		
 	<!-- DoraemonOS Settings -->
-        <activity android:name=".Settings$doraActivity"
+        <activity android:name=".Settings$DoraemonOSActivity"
             android:label="@string/dora_settings_title"
             android:icon="@drawable/ic_homepage_dora"
             android:parentActivityName="com.android.settings"
@@ -3865,7 +3865,7 @@
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.dora.settings.dora" />
+                android:value="com.dora.settings.DoraemonOS" />
         </activity>
 
         <activity android:name=".backup.transport.TransportActivity"
