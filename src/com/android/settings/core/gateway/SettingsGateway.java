@@ -165,7 +165,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.dora.settings.dora;
+import com.dora.settings.DoraemonOS;
 
 public class SettingsGateway {
 
@@ -320,7 +320,7 @@ public class SettingsGateway {
             NetworkProviderSettings.class.getName(),
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
-            dora.class.getName()
+            DoraemonOS.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -360,6 +360,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
-            Settings.doraActivity.class.getName(),
+            Settings.DoraemonOSActivity.class.getName(),
     };
             }
