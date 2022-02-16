@@ -43,6 +43,6 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DORA;
+        return MetricsProto.MetricsEvent.DORA_SETTINGS;
     }
 }

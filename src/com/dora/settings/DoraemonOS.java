@@ -40,7 +40,7 @@ public class DoraemonOS extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DORA;
+        return MetricsProto.MetricsEvent.DORA_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

@@ -54,6 +54,6 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DORA;
+        return MetricsProto.MetricsEvent.DORA_SETTINGS;
     }
 }
