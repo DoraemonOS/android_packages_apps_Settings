@@ -40,9 +40,9 @@ import androidx.preference.PreferenceManager;
 
 import com.android.settings.R;
 import com.android.settings.dora.buttons.ButtonSettingsUtils;
-import com.android.settings.dora.preference.CustomDialogPreference;
+import com.android.settings.dora.preference.DoraDialogPreference;
 
-public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialog> implements
+public class ButtonBacklightBrightness extends DoraDialogPreference<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {
     private static final int BUTTON_BRIGHTNESS_TOGGLE_MODE_ONLY = 1;
     private static final int DEFAULT_BUTTON_TIMEOUT = 5;
