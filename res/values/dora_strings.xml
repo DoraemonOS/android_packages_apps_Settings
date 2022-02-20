@@ -82,10 +82,6 @@
     <!-- Footer alerts -->
     <string name="animations_transparent_alert">Some (or maybe all) of this animations may not work if your device got a transparent theme!</string>
 
-    <!-- Advanced keyboard settings -->
-    <string name="keyboard_extras_title">Extras</string>
-    <string name="advanced_keyboard_settings_title">Advanced settings</string>
-
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
