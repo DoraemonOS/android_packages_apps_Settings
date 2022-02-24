@@ -46,13 +46,13 @@
         android:title="@string/apps_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"/>
 		
-	<Preference
+    <!-- <Preference
         android:key="top_level_dora"
         android:title="@string/dora_settings_title"
         android:summary="@string/dora_settings_summary"
         android:icon="@drawable/ic_dora"
         android:order="-125"
-        android:fragment="com.dora.settings.DoraemonOS"/>
+        android:fragment="com.dora.settings.DoraemonOS"/> -->
 
     <Preference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
